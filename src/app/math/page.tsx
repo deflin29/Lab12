@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
 const mathWorlds = [
-  { name: 'Number Jungle', description: 'Master counting and basic operations in a wild adventure.', emoji: '🌴' },
-  { name: 'Geometry City', description: 'Build and explore a city made of 3D shapes.', emoji: '🏙️' },
-  { name: 'Fraction Island', description: 'Solve puzzles by dividing treasures and crossing fraction bridges.', emoji: '🏝️' },
-  { name: 'Algebraic Aliens', description: 'Uncover the secrets of variables by communicating with extraterrestrials.', emoji: '👽' },
+  { name: 'Number Jungle', description: 'Master counting and basic operations in a wild adventure.', emoji: '🌴', href: '/math/number-jungle' },
+  { name: 'Geometry City', description: 'Build and explore a city made of 3D shapes.', emoji: '🏙️', href: '/math/geometry-city' },
+  { name: 'Fraction Island', description: 'Solve puzzles by dividing treasures and crossing fraction bridges.', emoji: '🏝️', href: '/math/fraction-island' },
+  { name: 'Algebraic Aliens', description: 'Uncover the secrets of variables by communicating with extraterrestrials.', emoji: '👽', href: '/math/algebraic-aliens' },
 ];
 
 export default function MathPage() {
@@ -33,8 +33,8 @@ export default function MathPage() {
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground">{world.description}</p>
-                         <Button variant="outline" className="w-full mt-6" disabled>
-                            Coming Soon
+                         <Button variant="outline" className="w-full mt-6" asChild>
+                            <Link href={world.href}>Start Learning</Link>
                          </Button>
                     </CardContent>
                 </Card>
