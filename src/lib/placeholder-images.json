@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "math-world",
+      "description": "An abstract representation of mathematics in space.",
+      "imageUrl": "https://images.unsplash.com/photo-1700511141346-195fdd644394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjZSUyMG1hdGh8ZW58MHx8fHwxNzY1Nzk3NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "space math"
+    },
+    {
+      "id": "physics-lab",
+      "description": "A visual representation of physics concepts like atoms and energy.",
+      "imageUrl": "https://images.unsplash.com/photo-1612521564024-c8e661595f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHBoeXNpY3N8ZW58MHx8fHwxNzY1NzM1NjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract physics"
+    },
+    {
+      "id": "astronomy-galaxy",
+      "description": "A beautiful image of a distant galaxy.",
+      "imageUrl": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnYWxheHklMjBzdGFyc3xlbnwwfHx8fDE3NjU3NzYzMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "galaxy stars"
+    },
+    {
+      "id": "badge-1",
+      "description": "A bronze badge for completing a challenge.",
+      "imageUrl": "https://images.unsplash.com/photo-1613825787346-ef9c6189774b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJvbnplJTIwbWVkYWx8ZW58MHx8fHwxNzY1NzIxNjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bronze medal"
+    },
+    {
+      "id": "badge-2",
+      "description": "A silver badge for mastering a topic.",
+      "imageUrl": "https://images.unsplash.com/photo-1667406593453-5bc911f8dd50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWx2ZXIlMjBtZWRhbHxlbnwwfHx8fDE3NjU3OTc2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver medal"
+    },
+    {
+      "id": "badge-3",
+      "description": "A gold badge for achieving a high score.",
+      "imageUrl": "https://images.unsplash.com/photo-1760996888745-a878ad8779df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb2xkJTIwbWVkYWx8ZW58MHx8fHwxNzY1NzkyNTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold medal"
+    },
+    {
+      "id": "parent-trust",
+      "description": "A happy parent and child using a tablet together.",
+      "imageUrl": "https://images.unsplash.com/photo-1580377968103-84cadc052dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXJlbnQlMjBjaGlsZHxlbnwwfHx8fDE3NjU3OTc2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent child"
+    }
+  ]
 }
