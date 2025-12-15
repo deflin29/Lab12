@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
 const physicsTopics = [
-  { name: 'Gravity Lab', description: 'Adjust gravity and see how objects float, fall, and orbit.', emoji: '🌍' },
-  { name: 'Motion Maze', description: 'Launch projectiles and navigate mazes using the laws of motion.', emoji: '🚀' },
-  { name: 'Energy Workshop', description: 'Build circuits and power machines with different energy sources.', emoji: '⚡' },
-  { name: 'Forces Playground', description: 'Experiment with push, pull, and friction in a fun sandbox.', emoji: '💪' },
+  { name: 'Gravity Lab', description: 'Adjust gravity and see how objects float, fall, and orbit.', emoji: '🌍', href: '/physics/gravity-lab' },
+  { name: 'Motion Maze', description: 'Launch projectiles and navigate mazes using the laws of motion.', emoji: '🚀', href: '/physics/motion-maze' },
+  { name: 'Energy Workshop', description: 'Build circuits and power machines with different energy sources.', emoji: '⚡', href: '/physics/energy-workshop' },
+  { name: 'Forces Playground', description: 'Experiment with push, pull, and friction in a fun sandbox.', emoji: '💪', href: '/physics/forces-playground' },
 ];
 
 export default function PhysicsPage() {
@@ -33,8 +33,8 @@ export default function PhysicsPage() {
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground">{topic.description}</p>
-                        <Button variant="outline" className="w-full mt-6" disabled>
-                            Coming Soon
+                        <Button variant="outline" className="w-full mt-6" asChild>
+                            <Link href={topic.href}>Start Experimenting</Link>
                          </Button>
                     </CardContent>
                 </Card>
